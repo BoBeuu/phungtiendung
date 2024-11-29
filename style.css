@@ -1,0 +1,78 @@
+/*--------------TỔNG QUAN--------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#074590;
+    color: #fff;
+}
+
+.right{
+    display: flex;
+}
+
+.right img{
+    width: 80px;
+    height: 36px;
+    margin-left: 0.5rem;
+}
+
+.right h5{
+    margin-left: 4rem;
+    font-size: 13px;
+    line-height: 36px;
+}
+
+.left{
+    margin-right: 4rem;
+    line-height: 36px;
+}
+
+.left a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.about{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('img/anh-truong.jpg');
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1{
+    font-size: 5rem;
+    margin: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.about h1 span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.about button{
+    width: 170px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.about button:hover{
+    background-color:#074590;
+}
